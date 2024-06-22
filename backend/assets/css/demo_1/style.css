@@ -748,3 +748,32 @@
     display: none; }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+.bi-check2{
+  font-size: 30px;
+}
+.cate_block_img{
+    width: 100%;
+    height: 200px;
+    background-color: wheat;
+}
+.form-group{
+  position: relative;
+}
+#btn_cate_upload{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.cate_block_img {
+   position: relative;
+}
+
+#btn_cancle_img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

@@ -21,7 +21,13 @@
     <link rel="stylesheet" href="/backend/assets/css/demo_1/style.css">
     <!-- End Layout styles -->
     <link rel="shortcut icon" href="/backend/assets/images/favicon.ico"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
+  <style>
+     
+  </style>
+ 
   <body>
     <div class="container-scroller">
       <!-- partial:partials/_navbar.html -->
