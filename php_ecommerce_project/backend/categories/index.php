@@ -9,6 +9,8 @@
                     <button data-bs-toggle="modal" data-bs-target="#modalAdd" class=" btn btn-primary btn-sm rounded-0">add more</button>
                 </div>
                 <?php include "./message/add.php"; ?>
+                <?php include "./message/delete.php";?>
+                <?php include "./message/edit.php";?>
                 <table class="table">
                     <thead>
                         <tr>
@@ -18,19 +20,8 @@
                             <th>Action</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Clothing Ment</td>
-                            <td>
-                                <button class="btn btn-success btn-sm rounded-0"><i class="bi bi-check2"></i></button>
-                            </td>
-                            <td>
-                                <button class=" btn btn-info btn-sm rounded-0"><i class="bi bi-pen-fill"></i></button>
-                                <button class=" btn btn-danger btn-sm rounded-0"><i class="bi bi-trash3"></i></button>
-                            </td>
-                        </tr>
-                      
+                    <tbody id="response_data">
+                        
                     </tbody>
                 </table>
             </div>
