@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <input type="text" name="id" id="get_id_update">
+                    <input type="hidden" name="id" id="get_id_update">
                     <label for="cate_name">Name</label>
                     <input type="text" name="cate_name" id="cate_name" class="form-control cate_name">
                 </div>
@@ -22,6 +22,7 @@
                         <option value="0">Block</option>
                     </select>
                 </div>
+                <input type="hidden" name="old_image" id="old_image">
             </div>
             <div class="col-md-6">
                 <div class="form-group">

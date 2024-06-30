@@ -20,6 +20,20 @@
               </a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="../categories/index.php">
+                <i class="menu-icon typcn typcn-bell"></i>
+                <span class="menu-title">Category</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../subcategories/index.php">
+                <i class="menu-icon typcn typcn-bell"></i>
+                <span class="menu-title">SubCategory</span>
+              </a>
+            </li>
+            
+            <li class="nav-item">
               <a class="nav-link" href="../users/list.php">
                 <i class="menu-icon typcn typcn-bell"></i>
                 <span class="menu-title">Users</span>
