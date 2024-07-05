@@ -2,6 +2,8 @@
 <div class="content-wrapper">
     <div class="col-lg-12 grid-margin stretch-card">
         <?php include "./message/modal-add.php"; ?>
+        <?php include "./message/modal-edit.php"; ?>
+        <?php include "./message/modal-del.php" ?>
         <div class="card">
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">

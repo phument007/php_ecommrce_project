@@ -24,8 +24,8 @@
     </td>
     <td>
 
-        <button class=" btn btn-info btn-sm rounded-0"><i class="bi bi-pen-fill"></i></button>
-        <button class=" btn btn-danger btn-sm rounded-0 "><i class="bi bi-trash3"></i></button>
+        <button data-bs-toggle="modal" data-bs-target="#modalEditSubCategory" data-id="<?php echo $row['sub_id'] ?>" class=" btn btn-info btn-sm rounded-0 edit_subcate"><i class="bi bi-pen-fill"></i></button>
+        <button data-bs-toggle="modal" data-bs-target="#ModalDeleteSubCate" onclick="DeleteSubCategory(<?php echo $row['sub_id'] ?>)"  class=" btn btn-danger btn-sm rounded-0 "><i class="bi bi-trash3"></i></button>
     </td>
 </tr>
 <?php
